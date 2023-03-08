@@ -1,6 +1,6 @@
 
 var url = window.location.href;
-var swLocation = '/TW/sw.js'; 'http://tw.github.io/TW/'
+var swLocation = '/TW/sw.js'; 'http://PuerquitoGrosero1.github.io/TW/'
 
 if ( navigator.serviceWorker ) {
 
