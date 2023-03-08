@@ -1,4 +1,22 @@
 
+var url = window.location.href;
+var swLocation = '/TW/sw.js'; 'http://tw.github.io/TW/'
+
+if ( navigator.serviceWorker ) {
+
+
+    if ( url.includes('localhost') ) {
+        swLocation = '/sw.js';
+    }
+
+
+    navigator.serviceWorker.register( swLocation );
+}
+
+
+
+
+
 // Referencias de jQuery
 
 var titulo      = $('#titulo');
